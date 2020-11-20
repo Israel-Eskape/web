@@ -40,7 +40,7 @@ nav ul{
     position: fixed;
     left: 0;
     width: 250px;
-    height: calc(100% - 9%);
+    height: calc(100% - 15%);
     transition: 0.5s;
     transition-property: left;
     overflow-y: auto;
@@ -74,7 +74,7 @@ nav ul{
     padding-left: 55px;
     box-sizing: border-box;
     transition: 0.5s;
-    
+    transition-property: background;
 }
 .sidebar a:hover{
     background: #19B3D3;
@@ -93,9 +93,7 @@ label #sidebar_btn{
     transition: 0.5s;
     transition-property: color;
 }
-#sidebar{
-    left: 165;
-}
+
 label #sidebar_btn:hover{
     color: #19B3D3;
 }
@@ -110,7 +108,7 @@ label #sidebar_btn:hover{
 }
 #check:checked ~ .sidebar a{
     font-size: 20px;
-    margin-left: 160px;
+    text-align: end;
     width: 100%;
 }
 #check:checked ~ .sidebar .profile_info{
@@ -128,7 +126,7 @@ label #sidebar_btn:hover{
   background: url(../img/background.png) no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 85vh;
   transition: 0.5s;
 }
 
