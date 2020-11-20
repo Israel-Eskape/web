@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torres&Torres</title>
+
+    <link rel="stylesheet" href="css/estilos3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        
+</head>
+<body>
+    
+    <input type="checkbox" id="check">
+    <!-- -------------------   -->
+    <header>
+        <label for="check">
+            <i class="fas fa-bars" id="sidebar_btn"></i>
+          </label>
+          <div class="left_area">
+            <h3>Torres <span>Torres</span></h3>
+          </div>
+    </header>
+    <!-- -------------------   -->
+
+    <nav class="mobile_nav">
+        <div class="nav_bar">
+            <img src="img/fondo.jpg" class="mobile_profile_image" alt="">
+            <i class="fa fa-bars nav_btn"></i>
+        </div>
+
+        <ul class="mobile_nav_items">
+            <li>
+                <a href="#" class="ventas-btn">
+                    <i class="fas fa-cart-plus"></i>
+                    Ventas
+                    <span class="fas fa-angle-down uno"></span>
+                </a>
+      
+
+                <ul class="submenu-ventas">
+                    <li><a href="#">Registrar</a></li>
+                    <li><a href="#">Visualizar</a></li>
+                </ul>
+            </li>
+            
+            <li>
+                <a href="#" class="servicios-btn">
+                    <i class="fas fa-shipping-fast"></i>
+                    Sevicios
+                    <span class="fas fa-angle-down dos"></span>
+                </a>
+                <ul class="submenu-servicio">
+                    <li><a href="#">Registrar</a></li>
+                    <li><a href="#">Visualizar</a></li>
+                    <li><a href="#">Cancelar</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="compras-btn">
+                    <i class="fas fa-tags" class="compras-btn"></i>
+                    Compras
+                    <span class="fas fa-angle-down tres"></span>
+                </a>
+                <ul class="submenu-compras">
+                    <li><a href="#">Registrar</a></li>
+                    <li><a href="#">Visualizar</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#" class="productos-btn">
+                    <i class="fas fa-broom"></i>
+                    Producto
+                    <span class="fas fa-angle-down cuatro"></span>
+                </a>
+                <ul class="submenu-producto">
+                    <li><a href="#">Registrar</a></li>
+                    <li><a href="#">Actualizar</a></li>
+                    <li><a href="#">Baja</a></li>
+                    <li><a href="#">Visualizar</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#"class="proveedores-btn">
+                    <i class="fas fa-address-book"></i>
+                    Proveedores
+                    <span class="fas fa-angle-down cinco"></span>
+                </a>
+                <ul class="submenu-proveedores">
+                    <li><a href="#">Alta</a></li>
+                    <li><a href="#">Baja</a></li>
+                    <li><a href="#">Actualización</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#"class="empleado-btn">
+                    <i class="fas fa-address-card"></i>
+                    Empleado
+                    <span class="fas fa-angle-down seis"></span>
+                </a>
+                <ul class="submenu-empleado">
+                    <li><a href="#">Alta</a></li>
+                    <li><a href="#">Baja</a></li>
+                    <li><a href="#">Actualización</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+
+    <nav class="sidebar">
+        <div class="profile_info">
+            <img src="img/fondo.jpg" class="profile_image" alt="">
+            <h4>Israel</h4>
+        </div>
+
+        <ul>
+            <li>
+                <a href="#" class="ventas-btn">
+                    <i class="fas fa-cart-plus"></i>
+                    Ventas
+                    <span class="fas fa-angle-down uno"></span>
+                </a>
+      
+
+                <ul class="submenu-ventas">
+                    <li><a href="#">Registrar</a></li>
+                    <li><a href="#">Visualizar</a></li>
+                </ul>
+            </li>
+            
+            <li>
+                <a href="#" class="servicios-btn">
+                    <i class="fas fa-shipping-fast"></i>
+                    Sevicios
+                    <span class="fas fa-angle-down dos"></span>
+                </a>
+                <ul class="submenu-servicio">
+                    <li><a href="#">Registrar</a></li>
+                    <li><a href="#">Visualizar</a></li>
+                    <li><a href="#">Cancelar</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="compras-btn">
+                    <i class="fas fa-tags" class="compras-btn"></i>
+                    Compras
+                    <span class="fas fa-angle-down tres"></span>
+                </a>
+                <ul class="submenu-compras">
+                    <li><a href="#">Registrar</a></li>
+                    <li><a href="#">Visualizar</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#" class="productos-btn">
+                    <i class="fas fa-broom"></i>
+                    Producto
+                    <span class="fas fa-angle-down cuatro"></span>
+                </a>
+                <ul class="submenu-producto">
+                    <li><a href="#">Registrar</a></li>
+                    <li><a href="#">Actualizar</a></li>
+                    <li><a href="#">Baja</a></li>
+                    <li><a href="#">Visualizar</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#"class="proveedores-btn">
+                    <i class="fas fa-address-book"></i>
+                    Proveedores
+                    <span class="fas fa-angle-down cinco"></span>
+                </a>
+                <ul class="submenu-proveedores">
+                    <li><a href="#">Alta</a></li>
+                    <li><a href="#">Baja</a></li>
+                    <li><a href="#">Actualización</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#"class="empleado-btn">
+                    <i class="fas fa-address-card"></i>
+                    Empleado
+                    <span class="fas fa-angle-down seis"></span>
+                </a>
+                <ul class="submenu-empleado">
+                    <li><a href="#">Alta</a></li>
+                    <li><a href="#">Baja</a></li>
+                    <li><a href="#">Actualización</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <nav class="content">
+
+    </nav>
+
+
+
+    <script>
+        
+        $('.ventas-btn').click(function(){
+
+            $('nav ul .submenu-ventas').toggleClass("mostrar");
+            $('nav ul .ventas-btn').toggleClass("showsidebar");
+            $('nav ul .uno').toggleClass("rotate");
+        });
+        $('.servicios-btn').click(function(){
+            $('nav ul .submenu-servicio').toggleClass("mostrar");
+            $('nav ul .dos').toggleClass("rotate");
+        });
+        $('.compras-btn').click(function(){
+            $('nav ul .submenu-compras').toggleClass("mostrar");
+            $('nav ul .tres').toggleClass("rotate");
+        });
+        $('.productos-btn').click(function(){
+            $('nav ul .submenu-producto').toggleClass("mostrar");
+            $('nav ul .cuatro').toggleClass("rotate");
+        });
+        $('.proveedores-btn').click(function(){
+            $('nav ul .submenu-proveedores').toggleClass("mostrar");
+            $('nav ul .cinco').toggleClass("rotate");
+        });
+        $('.empleado-btn').click(function(){
+            $('nav ul .submenu-empleado').toggleClass("mostrar");
+            $('nav ul .seis').toggleClass("rotate");
+        });
+        $('nav ul li').click(function(){
+            $(this).addClass("active").siblings().removeClass("active");
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.nav_btn').click(function(){
+            $('.mobile_nav_items').toggleClass('active');
+          });
+        });
+    </script>
+</body>
+</html>
